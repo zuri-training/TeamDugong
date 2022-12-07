@@ -1,4 +1,4 @@
-# TeamDugong Project Structure
+#### TeamDugong Project Structure
 
 The project structure features differnt folders each containing files relating to the project.
 The index.html folder contains the necessary pages linked together that make up the Alumni Donate platform. It features an About Us , Contact , Gallery, Location, Create, Gallery, Sign in/ Register and Payment files that will be converted into full fledged interactive pages.
