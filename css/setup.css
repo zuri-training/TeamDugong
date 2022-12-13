@@ -1,0 +1,103 @@
+.college-heading{
+    margin: 0px 0 50px 50px;
+}
+
+.setup-button{
+    padding: 20px 0 0 0px;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center ;
+    text-align: center;
+    margin-left: 330px;
+  /* font: bold;     */
+}
+
+.btnx{
+    margin-bottom: 10px;
+}
+
+.btn1{
+    border: 2px solid #346E84;
+    color: #346E84;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 0 #346E84;
+    transition: ease-out 0.5s;
+    outline: #346E84;
+    padding: 8px;
+    cursor: pointer;
+    width: 115px;
+    margin-right: 20px;
+}
+
+.btn1:hover{
+    color: white;
+    box-shadow: inset 100px 0 0 0 #346E84;
+    cursor: pointer;
+}
+
+
+.btn2{
+    cursor: pointer;
+    width: 115px;
+    border: 2px solid #346E84;
+    color: #fff;
+    background-color: #346E84;
+    border-radius: 5px;
+    outline: none;
+    transition: ease-out 0.5s;
+    position: relative;
+    z-index: 1;
+    padding: 8px;
+
+}
+
+.btn2:hover{
+    color: #346E84;
+    box-shadow: inset 100px 0 0 0 white;
+    cursor: pointer;
+}
+
+
+.body{
+    height: 100vh;
+    width: 100%;
+}
+
+.container-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px 100px;
+
+}
+
+.container-3:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.step1{
+    font-size: 14px;
+}
+
+
+
+/* STEP 2 */
+
+.set-up-text{
+    padding: 10%;
+    color: white;
+}
