@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1d1b1b;
+  height: 100vh;
+  width: 100vw;
+  padding: 56px 0;
+}
+
+.dot {
+  height: 18px;
+  width: 18px;
+  margin: 0 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active {
+  background-color: #191919;
+}
+
+.heading-style {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 50vw;
+  min-width: 330px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.meme {
+  margin-top: 150px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #1d1b1b;
+  /* height: 20px; */
+  margin-bottom: 25px;
+}
+
+form {
+  background-color: #346e84;
+  max-width: 50vw;
+  min-width: 330px;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 32px 30px 26px;
+}
+
+label {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input,
+select {
+  font-size: 18px;
+  width: 100%;
+  border-radius: 4px;
+  border: 0.8px solid #191919;
+  font-weight: normal;
+  outline: 0;
+  padding: 10px 16px;
+}
+
+input:focus,
+select:focus {
+  border-color: #346e84;
+}
+
+::placeholder {
+  color: #0c1a20;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 2px;
+}
+
+select {
+  color: #0c1a20;
+  margin-bottom: 12px;
+}
+
+input[type="submit"] {
+  text-align: center;
+  display: block;
+  width: 275px;
+  padding: 10px;
+  border: 2.4px solid #191919;
+  border-radius: 8px;
+  margin: 15px auto 20px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: inset 0 0 0 0 white;
+  transition: ease-out 0.5s;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: #000;
+  border: 2.4px solid #000;
+  box-shadow: inset 150px 0 0 0 white;
+}
+
+.links {
+  margin: auto auto 10px;
+  width: 275px;
+}
+
+a {
+  background-color: #99e4f2;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2.4px solid #99e4f2;
+  border-radius: 5px;
+  width: 120px;
+  padding: 7px 40px;
+  text-decoration: none;
+  margin: auto;
+  box-shadow: inset 0 0 0 0 #346e84;
+  transition: ease-out 0.5s;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #346e84;
+  box-shadow: inset 150px 0 0 0 white;
+}
+
+.exit {
+  margin-right: 50px;
+}
+
+form h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 32px;
+  margin: 0 auto 23px;
+}
+
+input[type="email"] {
+  margin-bottom: 16px;
+}
+
+input[type="password"] {
+  margin-bottom: 16px;
+}
+
+.sign-up {
+  margin-top: 30px;
+  border: 2.4px solid #000;
+  cursor: pointer;
+}
+
+.login {
+  font-size: 20px;
+  color: #346e84;
+  width: 180px !important;
+  padding: 16px 24px !important;
+}
+
+@media screen and (max-width: 648px) {
+  label,
+  input,
+  selection {
+    font-size: 14px;
+  }
+
+  form {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  a {
+    text-align: center;
+    width: 80px;
+    padding: 7px 20px;
+  }
+}

@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", "sans-serif";
+}
+
+.signup-first {
+  height: 20%;
+  background-color: #ccf2f8;
+  display: flex;
+  padding: 30px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.signup-logo {
+  width: 50%;
+  padding: 280px 0 0 0;
+  margin: 0px 0 0 -30px;
+  background-image: url("../img/landingpage/footer-sign-up1.png");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100%;
+  text-align: center;
+}
+
+.signup-button {
+  width: 50%;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.sign-second {
+  width: 100%;
+  background-color: #ccf2f8;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.sign-second1 {
+  width: 25%;
+}
+
+.sign-second2 {
+  width: 50%;
+}
+
+.sign-second3 {
+  width: 25%;
+}
+
+.sign-second2 h1 {
+  margin: 20px;
+}
+
+.sign-second2 h2 {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sign-second2 h3 {
+  margin: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-alumni {
+  cursor: pointer;
+  width: 200px;
+  border: 2px solid #346e84;
+  color: #fff;
+  background-color: #346e84;
+  border-radius: 5px;
+  outline: none;
+  transition: ease-out 0.5s;
+  position: relative;
+  z-index: 1;
+  padding: 8px;
+}
+
+.btn-alumni:hover {
+  color: #346e84;
+  box-shadow: inset 200px 0 0 0 white;
+  cursor: pointer;
+}
+
+.btn-alumni2 {
+  cursor: pointer;
+  width: 200px;
+  border: 2px solid #346e84;
+  color: black;
+  background-color: #66d7eb;
+  border-radius: 5px;
+  outline: none;
+  transition: ease-out 0.5s;
+  position: relative;
+  z-index: 1;
+  padding: 8px;
+  margin: 100px 0 0 0;
+}
+
+.btn-alumni2:hover {
+  color: #346e84;
+  box-shadow: inset 200px 0 0 0 white;
+  cursor: pointer;
+}
+
+.signup-third {
+  width: 50%;
+  text-align: right;
+}
+
+body {
+  height: 100vh;
+  background-color: #ccf2f8;
+}
+
+.sign-img {
+  width: 50%;
+  padding: 100px;
+  background-image: url("../img/landingpage/footer-sign-up.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 100%;
+  text-align: center;
+}
+
+.sign-last {
+  width: 100%;
+  display: flex;
+  margin-top: -50px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.small-btn {
+  width: 100vh;
+  margin-right: 100px;
+  background-color: #346e84;
+  background-image: url(img/landingpage/footer-sign-up2.png);
+  /* margin-bottom: 50px; */
+}
+
+@media screen and (max-width: 768px) {
+  .sign-img {
+    display: none;
+  }
+
+  .sign-second2 h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .signup-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .small-btn {
+    display: none;
+    /* margin-bottom: 10px; */
+  }
+
+  .memee {
+    display: none;
+  }
+}
