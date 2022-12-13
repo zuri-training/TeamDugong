@@ -4,7 +4,8 @@
 
 ## Introduction
 
-* A platform that allows college organizations create a simple platform for their alumni to give back to the organization
+* A platform that allows college organizations create a simple platform for their
+ alumni to give back to the organization
 
 ## Table of Contents
 
