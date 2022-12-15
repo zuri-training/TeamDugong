@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+div h2 {
+    font-size: 30px;
+    margin: 30px 0 0px 0px;
+}
+
+.logo-left {
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+}
+
+.text-left {
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+    /* padding: 20px; */
+    /* justify-content: left; */
+
+}
+
+.text-left2 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    /* padding-left: 30px; */
+    width: 80%;
+}
+
+
+.container-2 {
+    width: 100%;
+    flex: 3;
+    padding: 30px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.btn {
+    background-color: #346E84;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #346E84;
+    width: 120px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 0 0px 10px;
+    box-shadow: inset 0 0 0 0 #346E84;
+    transition: ease-in 0.5s;
+    outline: none;
+    text-align: center;
+    width: 35%;
+
+}
+
+.btn:hover {
+    color: #346E84;
+    box-shadow: inset 655px 0 0 0 white;
+    cursor: pointer;
+    width: 35%;
+
+}
+
+
+.btn2 {
+
+
+    background-color: white;
+    color: #346E84;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #346E84;
+    width: 120px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 0 0px 10px;
+    box-shadow: inset 0 0 0 0 #346E84;
+    transition: ease-in 0.5s;
+    outline: none;
+    text-align: center;
+    width: 35%;
+
+}
+
+.btn2:hover {
+    color: #fff;
+    box-shadow: inset 655px 0 0 0 #346E84;
+    cursor: pointer;
+    width: 35%;
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.Container-1 {
+    flex: 1;
+    background-color: #346e84;
+}
+
+.container-btn {
+    display: flex;
+}
+
+
+
+.overview {
+    height: 100px;
+}
+
+.setup-text {
+    font-size: 14px;
+    color: #346E84;
+    padding: 0 0 0 30px;
+
+}
+
+
+
+.setup-text3 {
+    font-size: 14px;
+    color: #346E84;
+    padding: 0 0 0 7px;
+
+}
+
+
+.radio-btn{
+    width: 65%;
+    
+}
