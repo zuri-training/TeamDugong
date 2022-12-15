@@ -2,11 +2,12 @@
 
 ![Alumni Donate](./img/logo-white.png)
 
-##Alumni website generators for tertiary instititions 
 
 ## Introduction
 
-* A platform that allows college organizations create a simple platform for their alumni to give back to the organization
+* A platform that allows college organizations create a simple platform for their alumni to give back to the organization.
+
+Alumni website generators for tertiary instititions 
 
 ## Table of Contents
 
