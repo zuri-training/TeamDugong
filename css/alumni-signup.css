@@ -59,6 +59,7 @@
 
 .sign-second2 h1 {
     margin: 20px;
+
 }
 
 .sign-second2 h2 {
@@ -120,6 +121,9 @@
 
 
 
+
+
+
 .signup-third{
         width: 50%;
         text-align: right;
@@ -176,6 +180,19 @@ body{
     .signup-logo{
         display: none;
     }
+
+    .sign-second2 h1 {
+        font-size: 20px;  
+        font-weight: bold;      
+    }
+
+
+    .sign-second2 h3 {
+        margin: 1px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }    
     
     
 }

@@ -178,3 +178,49 @@ section{
 }
 
 
+.confirm-btn{
+text-align: center;
+}
+
+
+.btn{
+  cursor: pointer;
+    width: 200px;
+    border: 2px solid #346E84;
+    color: white;
+    background-color: #346E84;
+    border-radius: 5px;
+    outline: none;
+    transition: ease-out 0.5s;
+    position: relative;
+    z-index: 1;
+    padding: 8px;
+    /* margin: 20px; */
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #346E84;
+    box-shadow: inset 200px 0 0 0 white;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .upper-menu{
+    display: none;
+  }
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+  .confirm-btn{
+    display: none;
+  }
+}

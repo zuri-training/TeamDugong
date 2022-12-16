@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Admin Dashboard | Alumni Donate </title>
+  <link rel="stylesheet" href="../css/alumni/search.css">
+
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="../../img/icons/icon.png" type="image/x-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-menu sidebarBtn'></i>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="../html/alumni-dashboard.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name act">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="active">
+          <i class='bx bx-heart menu-texticon'></i>
+          <span class="links_name">Donation</span>
+        </a>
+      </li>
+      <li>
+        <a href="../html/alumni-search.html">
+          <i class='bx bx-user menu-texticon'></i>
+          <span class="links_name">Alumni</span>
+        </a>
+      </li>
+
+
+      <li>
+        <a href="../html/alumni-help.html">
+          <i class='bx bx-cog menu-texticon'></i>
+          <span class="links_name">Help</span>
+        </a>
+      </li>
+      <li class="log_out">
+        <a href="../index.html">
+          <i class='bx bx-log-out'></i>
+          <span class="links_name">Log out</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <span class="dashboard">Welcome To Your Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search for title, keyword and more...">
+        <i class='bx bx-search'></i>
+      </div>
+      <div class="profile-details">
+        <a href="../html/college-setup.html">
+          <img src="../img/organization/user.png" alt="">
+        </a>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="boxer">
+          <div class="right-side">
+            <div class="box-topic">Previous Donations</div>
+            <div class="search-box">
+              <input type="text" placeholder="Search..." class="search-box2">
+            </div>
+          </div>
+
+          <div class="donate-second">
+            <div class="box-topic2">All Donation History</div>
+            <div class="btn1">
+              <button class="btn">Add Ofline Donation</button>
+            </div>
+          </div>
+<div style="overflow-x:auto;">
+          <table class="tablecl donate-table">
+            <tr>
+              <th>Date</th>
+              <th>Name</th>
+              <th>Project</th>
+              <th>Email</th>
+              <th>Amount</th>
+
+
+            </tr>
+            <tr>
+              <td>30/11/2022</td>
+              <td>Oluwatosin Ligali</td>
+              <td>Donation of Chairs</td>
+              <td>tosinl@gmail.com</td>
+              <td>₦200,000</td>
+
+
+            </tr>
+            <tr>
+              <td>20/11/2022</td>
+              <td> Maryam Suleiman</td>
+              <td>Donations For The Library</td>
+              <td>maryams@gmail.com</td>
+              <td>₦100,000</td>
+
+            </tr>
+            <tr>
+              <td>10/11/2022</td>
+              <td>Adetunji Eniola</td>
+              <td>Project Sponsor One Student</td>
+              <td>eniolaa@gmail.com</td>
+              <td>₦50,000</td>
+
+            </tr>
+            <tr>
+              <td>12/10/2022</td>
+              <td>Leah Olorunfemi</td>
+              <td>Donations For The Library</td>
+              <td>leaho@gmail.com</td>
+              <td>₦150,000</td>
+
+            </tr>
+            <tr>
+              <td>09/09/2022</td>
+              <td>Olalekan Adebanjo</td>
+              <td>Donations For The Library</td>
+              <td>olalekana@gmail.com</td>
+              <td>₦80,000</td>
+
+            </tr>
+            <tr>
+              <td>01/04/2022</td>
+              <td>Bright Odohofre</td>
+              <td>Donation of Chairs</td>
+              <td>brighto@gmail.com</td>
+              <td>₦20,000</td>
+
+            </tr>
+          </table>
+        </div>
+
+
+          <div class="footer">
+            <div class="footer1">
+              <h5 class="footer4">Showing 1 of 20</h5>
+            </div>
+           
+            <div class="footer3">
+              <div>
+                <a href="">
+                <h4 class="ft1">Prev.</h4>
+              </a>
+              </div>
+              <div>
+                <h4 class="ft1">1</h4>
+
+              </div>
+              <div>
+                <a href="">
+
+                <h4 class="ft1">2</h4>
+              </a>
+              </div>
+              <div>
+                <a href="">
+                <h4 class="ft1">3</h4>
+              </a>
+              </div>
+              <div>
+                <a href="">
+                <h4 class="ft1">Next</h4>
+              </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".sidebarBtn");
+    sidebarBtn.onclick = function () {
+      sidebar.classList.toggle("active");
+      if (sidebar.classList.contains("active")) {
+        sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else
+        sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+    }
+  </script>
+
+</body>
+
+</html>
