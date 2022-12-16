@@ -24,11 +24,15 @@ nav{
 }
 
 .about-logo{
+    width: 25%;
     padding-left: 80px;
 }
 
 
-/*  */
+.about-menu{
+    width: 75%;
+    margin-left: 40%;
+}
 
 .btn2{
     cursor: pointer;
@@ -71,7 +75,7 @@ nav{
 .confirm-second{
     background-color: white;
     display: flex;
-    /* padding: 0px 50px; */
+    padding: 0px 50px;
     width: 100%;
     line-height: 10vh;
     z-index: 1;
@@ -181,35 +185,9 @@ font-weight: 900;
 }
 
 
-
-@media screen and (max-width: 768px) {
-    .card-event {
-        display: none;
-    }
-
-
-    /* MENU */
-
-    .about-menu2 {
-        display: none;
-    }
-
-    .about-logo {
-        text-align: center;
-        width: 100%;
-        padding: 0 25%;
-    }
-
-    .services-img {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 30px;
-    }
-
-    .about-h5 {
-        display: none;
-    }
-
-
+.confirm-first{
+    height: 70%;
+    padding: 10px;
 }
+
+

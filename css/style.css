@@ -30,10 +30,6 @@
 
 }
 
-.menu-items2{
-    display: none;
-}
-
 .menu-items a:hover{
     color: #346E84;
 }
@@ -90,29 +86,8 @@
     cursor: pointer;
 }
 
-
-.btn5{
-    cursor: pointer;
-    width: 180px;
-    border: 2px solid #346E84;
-    color: #fff;
-    background-color: #346E84;
-    border-radius: 5px;
-    outline: none;
-    transition: ease-out 0.5s;
-    position: relative;
-    z-index: 1;
-    padding: 8px;
-    margin: 0 0 10px 0 ;
-}
-
-.btn5:hover{
-    color: #346E84;
-    box-shadow: inset 180px 0 0 0 white;
-    cursor: pointer;
-}
-
 .container{
+    /* background-color: aquamarine; */
     display: flex;
     width: 100%;
  
@@ -139,55 +114,12 @@
 }
 
 @media screen and (max-width: 768px) {
-
-    .btn1{
-        border: 2px solid #346E84;
-        color: #346E84;
-        background-color: white;
-        border-radius: 5px;
-        box-shadow: inset 0 0 0 0 #346E84;
-        transition: ease-out 0.5s;
-        outline: #346E84;
-        padding: 8px;
-        cursor: pointer;
-        width: 180px;
-        margin-right: 0px;
-    }
-
-        
-    .btn1:hover{
-        color: white;
-        box-shadow: inset 180px 0 0 0 #346E84;
-        cursor: pointer;
-    }
-
-    .menu-items2 {
-        cursor: pointer;
-        text-decoration: none;
-        color: black;
-        font-size: medium;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    
-    }
-
-    .munu{
-        margin: 0px 10px;
-    
-    }
-    
-    .menu-items :hover{
-        color: #346E84;
-    }
-    
-    
     .menu-items{
         display: none;
     }
     .font1{
         font-size: smaller;
-        width: 100%;
+        width: 300px;
         margin-bottom: 10px;
         /* text-align: center; */
     }
@@ -196,7 +128,7 @@
         margin-bottom: 10px;
     }
     .container1{
-        width: 100%;
+        width: 300px;
         margin: 50px 50px 10px 50px;
         text-align: center;
     }
@@ -205,10 +137,9 @@
          
     }
     .img1{
-        text-align: center;
+        text-align: left;
         width: 100%;
-        padding: 0 25%;
-
+         
     }
 
     .button{
@@ -239,6 +170,7 @@ section{
     position: relative;
     margin: 20px;
     height: 150px;
+    margin-top: 30px;
 }
 
 
@@ -273,10 +205,19 @@ section{
     color: goldenrod !important;
 }
 
+.cards{
+    width: 70%;
+    margin: 0 200px;
+    
+    justify-content: center;
+}
 
 /* FEATURES */
 
-
+.features{
+    margin: 0px;
+    
+}
 .featured1{
     text-align: center;
     color: #346E84;
@@ -290,12 +231,9 @@ section{
 .cards{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(400px 1fr));
-    padding:  0 5%;
+    padding: 10px;
     grid-gap: 40px;
     text-align: center;
-    width: 100%;    
-    justify-content: center;
-    flex-direction: row;
 }
 
 .featured-second{
@@ -318,7 +256,7 @@ section{
     border: 1px solid #346E84;
     padding: 30px;
     margin: 0 0 40px 0;
-    /* width: 500px; */
+    width: 500px;
 
 }
 
@@ -329,7 +267,11 @@ section{
     border: 1px solid #346E84;
 }
 
+/* .container2{
+    text-align: center;
 
+    
+} */
 
 .icon1{
     width: 50px;
@@ -395,18 +337,15 @@ section{
 .card-left-heading1{
     background-color: white;
     margin-right: 40px;
-    padding: 3%;
+    padding: 30px;
     border-radius: 10px;
     margin-bottom: 70px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 
 
 }
 
 .card-left-heading1-one{
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     padding: 0px 20px 40px 0px;
     
@@ -461,10 +400,6 @@ section{
 
 /* TESTIMONIALS */
 
-.testimonial{
-    height: auto;
-}
-
 .testimonials{
     position: relative;
     max-width: 900px;
@@ -482,7 +417,7 @@ section{
 }
 
 .container3{
-    /* height: 550px; */
+    height: 550px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -551,9 +486,9 @@ section{
     .nav-btnx{
         display: none;
     }
-    /* .menu-items{
+    .menu-items{
         display: none;
-    } */
+    }
 }
 
 
@@ -631,7 +566,6 @@ section{
 
 .social{
     display: flex;
-    flex-direction: row;
 }
 
 .social .footer-img{
@@ -664,62 +598,6 @@ width: 25%;
     color: #E3F2FC;
    
 }
-
-
-/* RIGHT PLATFORMS */
-
-@media screen and (max-width: 768px) {
-    .cards{
-        /* width: 10%;     */
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-
-
-        
-        
-        
-    }
-}
-
-
-
-/* UPCOMING EVENT */
-
-@media screen and (max-width: 768px) {
-    .card-event{
-        display: none;
-    }
-
-
-/* FOOTER */
-    .social{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-text2{
-        display: none;
-    }
-
-    .events{
-        display: none;
-    }
-
-
-    /* MENU */
-   
-    
-}
-
-
-
-
-
-
-
-
 
 
 

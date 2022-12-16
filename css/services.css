@@ -19,15 +19,20 @@ nav {
     width: 100%;
 }
 
-
+.about-menu2 {
+    display: flex;
+}
 
 .about-logo {
-    width: 35%;
+    width: 25%;
     padding-left: 80px;
 }
 
 
-
+.about-menu {
+    width: 75%;
+    margin-left: 40%;
+}
 
 
 
@@ -37,11 +42,7 @@ nav {
     padding: 0px 20px;
     color: black;
     font-size: medium;
-    
-}
 
-.about-menu3{
-    display: none;
 }
 
 .about-menu2 a:hover {
@@ -58,10 +59,7 @@ nav {
     padding: 0px 50px;
     width: 100%;
     line-height: 14vh;
-}
-
-.confirm-first{
-text-align: left;
+    /* z-index: 1; */
 
 }
 
@@ -80,17 +78,17 @@ text-align: left;
     width: 100%;
 }
 
-.about-h3 {
+.about-h3{
     font-style: italic;
     font-size: xx-large;
     font-weight: 900;
-}
+    }
 
 .services-img {
     display: flex;
     text-align: center;
     margin-bottom: 30px;
-
+    
 }
 
 .services-img1 {
@@ -100,7 +98,7 @@ text-align: left;
     justify-content: center;
     justify-items: center;
     /* width: 210px; */
-}
+}   
 
 .final-footer {
     background-color: #346E84;
@@ -153,7 +151,7 @@ text-align: left;
 
 
 
-.services-btn {
+.services-btn{
     border: 2px solid #346E84;
     color: white;
     background-color: #346E84;
@@ -165,82 +163,13 @@ text-align: left;
     cursor: pointer;
     width: 215px;
     margin-right: 20px;
-
+   
 }
 
-.services-btn:hover {
+.services-btn:hover{
     color: white;
     box-shadow: inset 100px 0 0 0 #346E84;
     cursor: pointer;
 }
 
 
-
-
-
-
-
-
-
-/* UPCOMING EVENT */
-
-@media screen and (max-width: 768px) {
-    .card-event {
-        display: none;
-    }
-
-    .about-menu3 {
-        cursor: pointer;
-        text-decoration: none;
-        color: black;
-        font-size: medium;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    
-    }
-
-
-    .munu{
-        margin: 0px 10px;
-    
-    }
-
-    .about-menu2 :hover{
-        color: #346E84;
-    }
-
-    .about-menu2{
-        display: none;
-    }
-
-    .about-logo {
-        text-align: center;
-        width: 100%;
-        padding: 0 25%;
-    }
-
-    .services-img {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 30px;
-    }
-
-    .about-h5 {
-        display: none;
-    }
-
-
-       
-    .about-menu :hover{
-        color: #346E84;
-    }
-
-
-}
-
-
-
-
-@media screen and (max-width: 400px) {}
