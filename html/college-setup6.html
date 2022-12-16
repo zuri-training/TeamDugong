@@ -32,35 +32,35 @@
             <div>
                 <h2>Account Set-Up</h2>
             </div>
-            <form action="../html/alumni-dashboard.html">
+            <form action="../html/college-signup.html">
                 <div>
                     <h2 class="setup-text3">Organization Account Name</h2>
-                    <input type="email" name="" id="" placeholder="Enter Organization Account Name">
+                    <input type="text" name="" id="" placeholder="Enter Organization Account Name" required>
                 </div>
                 <div>
                     <h2 class="setup-text3">Organization Bank Name</h2>
-                    <input type="password" name="" id="" placeholder="Enter Organization Bank Name">
+                    <input type="text" name="" id="" placeholder="Enter Organization Bank Name" required>
                 </div>
                 <div>
                     <h2 class="setup-text3">Organization Account Number</h2>
-                    <input type="email" name="" id="" placeholder="Enter Organization Account Number">
+                    <input type="number" name="" id="" placeholder="Enter Organization Account Number" required>
                 </div>
                 <div class="radio-btn">
-                    <input type="radio" id="age1" name="age" value="30">
+                    <input type="radio" id="age1" name="age" value="30" required>
                     <label for="age1">Activate Card Payment</label><br>
                     <h2 class="setup-text3">Where should payment invoice be sent to</h2>
 
-                    <input type="radio" id="age2" name="age" value="60">
+                    <input type="radio" id="age2" name="age" value="60" required>
                     <label for="age2">Send to our email</label><br>
-                    <input type="radio" id="age3" name="age" value="100">
+                    <input type="radio" id="age3" name="age" value="100" required>
                     <label for="age3">Send to other email</label><br><br>
                 </div>
                 <div>
-                    <input type="email" name="" id="" placeholder="Send to an alternative email address">
+                    <input type="email" name="" id="" placeholder="Send to an alternative email address" required>
                 </div>
                 <div class="container-btn">
-                    <a href="../html/college-setup5.html" class="btn2">Back</a><a href="../html/college-signup.html"
-                        class="btn">Submit</a>
+                    <a href="../html/college-setup5.html" class="btn2">Back</a>
+                    <input type="submit" value="Submit" class="btn">
 
 
                 </div>
