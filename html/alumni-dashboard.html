@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> Admin Dashboard | Alumni Donate </title>
-    <link rel="stylesheet" href="../css/alumni/dashboard.css">
-    <!-- Boxicons CDN Link -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" href="../../img/icons/icon.png" type="image/x-icon">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+<head>
+  <meta charset="UTF-8">
+  <title> Admin Dashboard | Alumni Donate </title>
+  <link rel="stylesheet" href="../css/dashboard.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="../../img/icons/icon.png" type="image/x-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
 <body>
   <div class="sidebar">
     <div class="logo-details">
       <i class='bx bx-menu sidebarBtn'></i>
+
+
     </div>
-      <ul class="nav-links">
-        <li>
-          <a href="#" class="active">
-            <i class='bx bx-grid-alt' ></i>
-            <span class="links_name act">Dashboard</span>
-          </a>
-        </li>
-        <li>
-          <a href="../html/alumni-donation.html">
-            <i class='bx bx-heart menu-texticon' ></i>
-            <span class="links_name">Donation</span>
-          </a>
-        </li>
-        <li>
-          <a href="../html/alumni-search.html">
-            <i class='bx bx-user menu-texticon' ></i>
-            <span class="links_name">Alumni</span>
-          </a>
-        </li>
-        
-       
-        <li>
-          <a href="../html/alumni-help.html">
-            <i class='bx bx-cog menu-texticon' ></i>
-            <span class="links_name">Help</span>
-          </a>
-        </li>
-        <li class="log_out">
-          <a href="../index.html">
-            <i class='bx bx-log-out'></i>
-            <span class="links_name">Log out</span>
-          </a>
-        </li>
-      </ul>
+    <ul class="nav-links">
+      <li>
+        <a href="#" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name act">Dashboard</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class='bx bx-user menu-texticon'></i>
+          <span class="links_name">Alumni</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../html/alumni-donate.html">
+          <i class='bx bx-heart menu-texticon'></i>
+          <span class="links_name">Donation</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog menu-texticon'></i>
+          <span class="links_name">Help</span>
+        </a>
+      </li>
+      <li class="log_out">
+        <a href="../index.html">
+          <i class='bx bx-log-out'></i>
+          <span class="links_name">Log out</span>
+        </a>
+      </li>
+    </ul>
   </div>
   <section class="home-section">
     <nav>
@@ -59,12 +63,12 @@
       </div>
       <div class="search-box">
         <input type="text" placeholder="Search for title, keyword and more...">
-        <i class='bx bx-search' ></i>
+        <i class='bx bx-search'></i>
       </div>
       <div class="profile-details">
         <a href="../html/college-setup.html">
-        <img src="../img/organization/user.png" alt="">
-      </a>
+          <img src="../img/organization/user.png" alt="">
+        </a>
       </div>
     </nav>
 
@@ -74,12 +78,12 @@
           <div class="right-side">
             <div class="box-topic">Target</div>
             <div class="number">₦1.4 Million </div>
-           
+
           </div>
         </div>
         <div class="boxer">
           <div class="right-side">
-            
+
             <div class="indicator">
               <div class="box-topic">Total Received</div>
               <div class="number">₦1.3 Million </div>
@@ -89,12 +93,12 @@
         <div class="boxer">
           <div class="right-side">
             <div class="indicator">
-              <div class="box-topic">Total Balance <br>  Needed To Hit Target</div>
+              <div class="box-topic">Total Balance <br> Needed To Hit Target</div>
               <div class="number">₦100 Thousand </div>
             </div>
           </div>
         </div>
-        
+
       </div>
 
       <div class="sales-boxes">
@@ -102,27 +106,27 @@
           <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
           <script>
-          var xValues = ["July", "August", "September", "October", "November"];
-          var yValues = [400, 200, 400, 200, 100];
-          var barColors = ["#1F424F", "#1F424F","#1F424F","#1F424F","#1F424F"];
-          
-          new Chart("myChart", {
-            type: "bar",
-            data: {
-              labels: xValues,
-              datasets: [{
-                backgroundColor: barColors,
-                data: yValues
-              }]
-            },
-            options: {
-              legend: {display: false},
-              title: {
-                display: true,
-                text: "Donation History 2022"
+            var xValues = ["July", "August", "September", "October", "November"];
+            var yValues = [400, 200, 400, 200, 100];
+            var barColors = ["#1F424F", "#1F424F", "#1F424F", "#1F424F", "#1F424F"];
+
+            new Chart("myChart", {
+              type: "bar",
+              data: {
+                labels: xValues,
+                datasets: [{
+                  backgroundColor: barColors,
+                  data: yValues
+                }]
+              },
+              options: {
+                legend: { display: false },
+                title: {
+                  display: true,
+                  text: "Donation History 2022"
+                }
               }
-            }
-          });
+            });
           </script>
         </div>
 
@@ -138,7 +142,7 @@
           <div class="donut" style="--first: .65; --second: .35; ">
             <div class="donut__slice donut__slice__first"></div>
             <div class="donut__slice donut__slice__second"></div>
-            
+
             <div class="donut__label">
               <div class="donut__label__heading">
                 Female - 5,000
@@ -159,16 +163,17 @@
   <script src="js/script.js"></script>
 
   <script>
-   let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".sidebarBtn");
-sidebarBtn.onclick = function() {
-  sidebar.classList.toggle("active");
-  if(sidebar.classList.contains("active")){
-  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
-}else
-  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-}
- </script>
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".sidebarBtn");
+    sidebarBtn.onclick = function () {
+      sidebar.classList.toggle("active");
+      if (sidebar.classList.contains("active")) {
+        sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else
+        sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+    }
+  </script>
 
 </body>
+
 </html>
