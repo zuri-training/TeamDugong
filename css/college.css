@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -10,18 +10,18 @@
 
 
 /* NAVIGATION */
-.navigation{
+.navigation {
     background-color: #eeeeee;
     height: 70px;
     width: 100%;
     padding: 10px 30px;
     display: flex;
     align-items: center;
-    
+
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     width: 250px;
@@ -29,20 +29,20 @@
 
 }
 
-.nav-logo{
+.nav-logo {
     width: 45px;
     margin-right: 10px;
 
 }
 
-.nav-text1{
+.nav-text1 {
     font-size: large;
     font-weight: 300;
     /* text-align: center; */
-    
+
 }
 
-.menu-items a{
+.menu-items a {
     cursor: pointer;
     text-decoration: underline;
     padding: 0px 20px;
@@ -51,22 +51,22 @@
 
 }
 
-.user-img{
+.user-img {
     width: 35px;
 }
 
-.button{
+.button {
     display: flex;
     justify-content: flex-end;
-    
+
     text-align: center;
     margin-left: 200px;
     width: 25%;
-  
-    
+
+
 }
 
-.btn1{
+.btn1 {
     border: 2px solid #346E84;
     color: #346E84;
     background-color: white;
@@ -79,14 +79,14 @@
     width: 100px;
 }
 
-.btn1:hover{
+.btn1:hover {
     color: white;
     box-shadow: inset 100px 0 0 0 #346E84;
     cursor: pointer;
 }
 
-.btn2{
-    
+.btn2 {
+
     cursor: pointer;
     width: 100px;
     border: 2px solid #346E84;
@@ -100,7 +100,7 @@
     padding: 8px;
 }
 
-.btn2:hover{
+.btn2:hover {
     color: #346E84;
     box-shadow: inset 100px 0 0 0 white;
     cursor: pointer;
@@ -109,7 +109,7 @@
 
 /* HEADER */
 
-.heading{
+.heading {
     width: 100%;
     /* background: #346E84; */
     padding: 100px;
@@ -118,14 +118,14 @@
 
 }
 
-.heading-text1{
+.heading-text1 {
     color: #E0F7FB;
     font-size: 40px;
     font-weight: 900;
     text-decoration: underline;
 }
 
-.heading p{
+.heading p {
     padding: 50px 0 0 0;
     color: #E0F7FB;
     width: 45%;
@@ -134,7 +134,7 @@
     line-height: 30px;
 }
 
-.btn4{
+.btn4 {
     border: 2px solid black;
     color: white;
     background-color: black;
@@ -149,7 +149,7 @@
 
 }
 
-.btn4:hover{
+.btn4:hover {
     color: black;
     box-shadow: inset 150px 0 0 0 white;
     cursor: pointer;
@@ -158,16 +158,16 @@
 
 /* HEADING 2 */
 
-.heading2{
+.heading2 {
     background-color: #346E84;
     padding: 50px 100px 50px 100px;
     display: flex;
     color: #fff;
-    
+
 
 }
 
-.heading2 h1{
+.heading2 h1 {
     font-size: 25px;
     font-weight: 400;
     text-decoration: underline;
@@ -175,68 +175,69 @@
 }
 
 
-.heading2 h5{
-    text-align:justify;
+.heading2 h5 {
+    text-align: justify;
     font-size: 15px;
     font-weight: 300;
     line-height: 25px;
-    
+
 }
 
 
-.heading-first{
+.heading-first {
     text-align: center;
-width: 10%;    
+    width: 10%;
 }
 
-.heading-left{
+.heading-left {
     text-align: center;
-width: 35%;    
-}
-
-
-.heading-right{
-    text-align: center;
-width: 35%;    
-}
-
-.heading-center{
-    text-align: center;
-width: 10%;    
+    width: 35%;
 }
 
 
-.heading-last{
+.heading-right {
     text-align: center;
-width: 10%;    
+    width: 35%;
+}
+
+.heading-center {
+    text-align: center;
+    width: 10%;
+}
+
+
+.heading-last {
+    text-align: center;
+    width: 10%;
 }
 
 
 
 /* PROJECTS */
-.projects{
+.projects {
     height: auto;
     background-color: #E0F7FB;
     text-align: center;
     padding-top: 20px;
+    overflow: hidden;
 }
 
-.projected{
+.projected {
     text-decoration: underline;
     color: #346E84;
     font-size: x-large;
     font-weight: 500;
 }
 
-.projects-card{
+.projects-card {
     display: flex;
     margin: 30px 150px;
 
 
 }
 
-.projects-left h4{
-    margin:20px ;
+.projects-left h4 {
+    margin: 20px;
     text-decoration: none;
     /* margin-bottom: 40px; */
     text-decoration: underline;
@@ -244,12 +245,12 @@ width: 10%;
 
 }
 
-.projects-para{
+.projects-para {
     text-decoration: none !important;
     margin-bottom: 40px;
 }
 
-.projects-left{
+.projects-left {
     background-color: #99E4F2;
     height: 400px;
     border-radius: 20px;
@@ -259,7 +260,7 @@ width: 10%;
     padding: 50px;
 }
 
-.project-img{
+.project-img {
     /* width: 600px; */
     width: 500px;
 }
@@ -267,21 +268,21 @@ width: 10%;
 
 
 /* GALLERY */
-.gallery{
+.gallery {
     height: 850px;
     background-color: #346E84;
     text-align: center;
     padding-top: 30px;
 }
 
-.gallery-title{
+.gallery-title {
     text-decoration: underline;
     color: #99E4F2;
     font-size: x-large;
     font-weight: 500;
 }
 
-.gallery-left{
+.gallery-left {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -291,7 +292,7 @@ width: 10%;
 
 }
 
-.gallery-right{
+.gallery-right {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -302,7 +303,7 @@ width: 10%;
 }
 
 
-.gallery-img{
+.gallery-img {
     width: 400px;
     height: 300px;
     border-radius: 20px;
@@ -311,19 +312,19 @@ width: 10%;
 
 }
 
-.gallery-card .btn5{
+.gallery-card .btn5 {
     position: absolute;
     top: 35%;
     left: 28%;
 }
 
-.gallery-card .btn6{
+.gallery-card .btn6 {
     position: absolute;
     top: 35%;
     left: 60%;
 }
 
-.gallery-btn{
+.gallery-btn {
     border: 2px solid black;
     color: black;
     border-radius: 5px;
@@ -337,7 +338,7 @@ width: 10%;
     background-color: #f5b506;
 }
 
-.gallery-btn:hover{
+.gallery-btn:hover {
     background-color: #99E4F2;
     color: black;
     box-shadow: inset 150px 0 0 0 f5b506;
@@ -347,7 +348,7 @@ width: 10%;
 
 /* FOOTER */
 
-.footer{
+.footer {
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -356,14 +357,14 @@ width: 10%;
 
 
 
-.footer-text{
+.footer-text {
     font-size: small;
     padding-bottom: 20px;
 }
 
 
 
-.footer-text2{
+.footer-text2 {
     font-size: medium;
     font-weight: 400;
     font-style: italic;
@@ -371,42 +372,43 @@ width: 10%;
     width: 80%;
 }
 
-.footer-text3{
+.footer-text3 {
     width: 100%;
 }
 
-.social{
+.social {
     display: flex;
+
 }
 
-.social .footer-img{
+.social .footer-img {
     height: 30px;
     margin-right: 20px;
     cursor: pointer;
 }
 
-.footer-one{
+.footer-one {
     width: 50%;
 
 }
 
-.fotty{
+.fotty {
     padding-left: 200px;
 
 }
 
 
-.footer-two{
+.footer-two {
     width: 25%;
 }
 
-.footer-quick{
+.footer-quick {
     padding: 7px;
     text-decoration: none;
 }
 
 
-.final-footer{
+.final-footer {
     background-color: #346E84;
     height: 50px;
     text-align: center;
@@ -414,26 +416,26 @@ width: 10%;
     font-size: 12px;
     font-weight: 100;
     color: #E3F2FC;
-   
+
 }
 
 
 
-.footer1{
+.footer1 {
     padding: 30px;
     display: flex;
     flex-direction: row;
     background-color: #E0F7FB;
 }
 
-.sussex{
+.sussex {
     line-height: 30px;
     /* padding-right: 30px; */
 
 }
 
 
-.btn3{
+.btn3 {
     width: 600px;
     padding: 15px;
     background-color: black;
@@ -450,7 +452,7 @@ width: 10%;
     justify-items: center;
 }
 
-.btn3:hover{
+.btn3:hover {
     width: 600px;
     padding: 15px;
     background-color: #346E84;
@@ -467,25 +469,25 @@ width: 10%;
 
 
 @media screen and (max-width: 768px) {
-    .nav-logo{
+    .nav-logo {
         width: 30px;
     }
 
-    .nav-text1{
+    .nav-text1 {
         font-size: small;
         width: 200px;
     }
 
-    .menu-items{
+    .menu-items {
         display: none;
     }
 
-    .heading-text1{
+    .heading-text1 {
         font-size: large;
         font-weight: 300;
     }
 
-    .heading p{
+    .heading p {
         padding: 50px 0 0 0;
         color: #E0F7FB;
         width: 100%;
@@ -494,22 +496,22 @@ width: 10%;
         line-height: 30px;
     }
 
-    .heading2{
+    .heading2 {
         background-color: #346E84;
         padding: 3px 5px 3px 5px;
         display: flex;
         color: #fff;
     }
 
-    .projects-card{
+    .projects-card {
         display: flex;
         flex-direction: column;
         margin: 30px 10px;
-    
+
     }
 
 
-    .projects-left{
+    .projects-left {
         background-color: #99E4F2;
         height: 400px;
         border-radius: 20px;
@@ -518,11 +520,23 @@ width: 10%;
         margin-right: 50px;
         padding: 50px;
     }
-    
-    .project-img{
-        /* width: 600px; */
-        width: 500px;
+
+
+
+    .project-img {
+        margin-top: 20px;
+        width: 360px;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+        
     }
 
 }
 
+
+@media screen (max-width: 400px) {
+    
+}
