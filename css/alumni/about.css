@@ -73,6 +73,7 @@ nav{
     height: auto;
    overflow: hidden;
    width: 100%;
+
 }
 
 
@@ -232,6 +233,13 @@ margin-top: 50px;
         padding-left: 15px;
         text-align: center;
 
+    }
+
+    .about-h4{
+        padding: 0px 20px 20px 20px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 45px;
     }
 }
 
