@@ -32,27 +32,31 @@
             <div>
                 <h2>Account Set-Up</h2>
             </div>
-            <form action="../html/alumni-dashboard.html">
+            <!-- <form action="../html/"> -->
+            <form name="orgform" action="../html/college-setup5.html">
                 <div>
                     <h2 class="setup-text3">Projects Overview</h2>
-                    <input type="text-area" name="" id="" placeholder="Project Overview" class="overview">
+                    <input type="text-area" name="" id="" placeholder="Project Overview" class="overview" required>
                 </div>
                 <div>
                     <h2 class="setup-text3">Upload Picture (png or jpeg - 100px by 100px)</h2>
-                    <input type="file" name="" id="">
+                    <input type="file" name="" id="" required>
                 </div>
                 <div>
                     <h2 class="setup-text3">Projects Amout Target</h2>
-                    <input type="email" name="" id="" placeholder="Enter Amount ">
+                    <input type="number" name="" id="" placeholder="Enter Amount" required>
                 </div>
                 <div>
                     <h2 class="setup-text3">Projects Deadline</h2>
-                    <input type="date" name="" id="" placeholder="02/02/2022">
+                    <input type="date" name="" id="" placeholder="02/02/2022" required>
                 </div>
 
                 <div class="container-btn">
-                    <a href="../html/college-setup3.html" class="btn2">Back</a><a href="../html/college-setup5.html"
-                        class="btn">Next</a>
+                    <a href="../html/college-setup3.html" class="btn2">Back</a>
+
+                    <!-- <a href="../html/college-setup5.html"
+                        class="btn">Next</a> -->
+                    <input type="submit" value="Next" class="btn">
 
 
                 </div>
