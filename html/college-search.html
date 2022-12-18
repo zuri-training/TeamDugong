@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> College Search | Alumni Donate </title>
+  <link rel="stylesheet" href="../css/search.css">
+
+
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" href="../img/icons/icon.png" type="image/x-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-menu sidebarBtn'></i>
+
+
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="../html/college-search.html" class="act">
+          <i class='bx bx-down-arrow'></i>
+          <span class="links_name">A - H</span>
+          <i class='bx bx-down-arrow'></i>
+
+        </a>
+      </li>
+
+
+
+      <li>
+        <a href="../html/college-search.html">
+          <i class='bx bx-down-arrow'></i>
+          <span class="links_name ">I - P</span>
+          <i class='bx bx-down-arrow'></i>
+
+        </a>
+      </li>
+      <li>
+        <a href="../html/college-search.html" class="">
+          <i class='bx bx-down-arrow'></i>
+          <span class="links_name">Q - Z</span>
+          <i class='bx bx-down-arrow'></i>
+
+        </a>
+      </li>
+
+    </ul>
+  </div>
+  <section class="home-section">
+    <nav class="nav-flex">
+      <div class="nav-menus">
+        <a href="../index.html" class="nav1">Home</a>
+        <a href="../html/about.html " class="nav1">About</a>
+        <a href="#" class="nav1">Schools</a>
+        <a href="../html/services.html" class="nav1">Services</a>
+      </div>
+
+
+    </nav>
+
+
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="school-box">
+
+              <div class="search-box">
+                <input type="text" placeholder="Search for your school...">
+              </div>
+            </div>
+
+            <div class="search-data" style="overflow-y:auto;">
+
+            <p>A.T. Still University of Health Sciences (AZ / MO) </p>
+            <p>Abilene Christian University (TX)</p>
+            <p>Abraham Baldwin Agricultural College (GA)</p>
+            <p>Academy of Art University (CA)</p>
+            <p>Adams State College (CO)</p>
+            <p>Adelphi University (NY)</p>
+            <p>Adler Graduate School (MN)</p>
+            <p>Adler University (IL)</p>
+            <p>Adrian College (MI)</p>
+            <p>Adventist University of Health Sciences (FL)</p>
+            <p>Agnes Scott College (GA)</p>
+            <p>AIB College of Business (IA)</p>
+          </div>
+
+
+
+
+
+
+
+
+
+            <!-- <div style="overflow-x:auto;">
+              <table class="tablecl">
+                <tr class="table2">
+                  <th class="table2">Project</th>
+                  <th class="table2">Amount Donated</th>
+                  <th class="table2">Date</th>
+
+                </tr>
+                <tr class="table2">
+                  <td class="table2">Donations For Chairs</td>
+                  <td class="table2">$50,000</td>
+                  <td>30/11/2022</td>
+
+                </tr>
+                <tr class="table2">
+                  <td>Donations For The Library</td>
+                  <td>$50,000</td>
+                  <td>20/11/2022</td>
+                </tr>
+                <tr>
+                  <td>Project Sponsor One Student</td>
+                  <td>$50,000</td>
+                  <td>10/11/2022</td>
+                </tr>
+                <tr>
+                  <td>Donations For The Library</td>
+                  <td>$50,000</td>
+                  <td>12/10/2022</td>
+                </tr>
+                <tr>
+                  <td>Donations For The Library</td>
+                  <td>$50,000</td>
+                  <td>09/09/2022</td>
+                </tr>
+                <tr>
+                  <td>Donations For Chairs</td>
+                  <td>$50,000</td>
+                  <td>01/04/2022</td>
+                </tr>
+              </table>
+            </div> -->
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".sidebarBtn");
+    sidebarBtn.onclick = function () {
+      sidebar.classList.toggle("active");
+      if (sidebar.classList.contains("active")) {
+        sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else
+        sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+    }
+  </script>
+
+</body>
+
+</html>
